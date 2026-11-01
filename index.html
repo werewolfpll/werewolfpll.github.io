@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">Wilkołak</p>
+      <h1>Buduję praktyczne projekty z agentami AI</h1>
+      <p class="intro">
+        To moja pierwsza mała strona portfolio. Pokazuje kierunek: automatyzacja,
+        lokalne modele oraz narzędzia, które pomagają szybciej tworzyć i testować pomysły.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#projekty">Zobacz projekty</a>
+        <a class="button secondary" href="#kontakt">Kontakt</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel about">
+        <h2>O mnie</h2>
+        <p>
+          Nazywam się Zygmunt, w sieci działam jako Wilkołak. Uczę się pracy z agentami
+          krok po kroku. Lubię proste, działające rozwiązania: lokalne modele,
+          integracje Windows + WSL2 oraz małe projekty, które dają szybki efekt.
+        </p>
+      </section>
+
+      <section id="projekty" class="projects-section">
+        <div class="section-heading">
+          <p class="eyebrow">Trzy przykłady</p>
+          <h2>Moje projekty</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <span class="tag">AI / Dashboard</span>
+            <h3>Agentic OS</h3>
+            <p>
+              Lokalny panel do pracy z agentami: opencode, hermes i agy.
+              Miejsce do testów, rozmów i budowania prostych workflow.
+            </p>
+            <ul>
+              <li>lokalne modele i usługi</li>
+              <li>praca przez dashboard</li>
+              <li>testy end-to-end</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <span class="tag">Web / Cloud</span>
+            <h3>CloudMart</h3>
+            <p>
+              Koncepcja lekkiej platformy e-commerce w chmurze, z naciskiem na prostotę,
+              czytelny interfejs i szybkie iteracje funkcji.
+            </p>
+            <ul>
+              <li>prototyp produktu</li>
+              <li>nowoczesny front-end</li>
+              <li>architektura pod rozwój</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <span class="tag">Starter</span>
+            <h3>Moje portfolio</h3>
+            <p>
+              Ta strona jest pierwszym krokiem. Ma pokazać moje narzędzia, kierunek nauki
+              i być bazą do kolejnych wersji z większą liczbą projektów.
+            </p>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>ciemny motyw</li>
+              <li>prosta rozbudowa</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel stack">
+        <h2>Moje narzędzia</h2>
+        <div class="stack-list">
+          <span>Ollama</span>
+          <span>Hermes Agent</span>
+          <span>OpenCode</span>
+          <span>agy CLI</span>
+          <span>WSL2</span>
+          <span>Obsidian</span>
+        </div>
+      </section>
+
+      <section id="kontakt" class="panel contact">
+        <h2>Kontakt</h2>
+        <p>
+          Najszybciej złapiesz mnie mailowo. Kliknij przycisk, żeby zobaczyć pełne dane kontaktowe.
+        </p>
+        <button id="contactBtn" class="button primary" type="button">Pokaż kontakt</button>
+        <p id="contactMessage" class="contact-message" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        © 2026 Zygmunt „Wilkołak” ·
+        <a href="https://github.com/werewolfpll" target="_blank" rel="noopener">werewolfpll</a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
