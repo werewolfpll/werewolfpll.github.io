@@ -6,6 +6,7 @@ if (contactBtn && contactMessage) {
     contactMessage.innerHTML =
       'E-mail: <a href="mailto:zygmunt.pezda@gmail.com">zygmunt.pezda@gmail.com</a>' +
       ' · GitHub: <a href="https://github.com/werewolfpll" target="_blank" rel="noopener">github.com/werewolfpll</a>' +
-      ' · LinkedIn: <a href="https://www.linkedin.com/in/zygmunt-pezda-69065a2a8/" target="_blank" rel="noopener">zygmunt-pezda</a>';
+      ' · LinkedIn: <a href="https://www.linkedin.com/in/zygmunt-pezda-69065a2a8/" target="_blank" rel="noopener">zygmunt-pezda</a>' +
+      ' · Discord: <a href="https://discord.gg/YKsKH89b9" target="_blank" rel="noopener">zaproszenie</a>';
   });
 }
