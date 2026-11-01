@@ -9,8 +9,19 @@
 <body>
   <div class="page-shell">
     <header class="hero">
-      <p class="eyebrow">Wilkołak</p>
-      <h1>Buduję praktyczne projekty z agentami AI</h1>
+      <div class="hero-head">
+        <img
+          class="avatar"
+          src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=stylized%20neon%20wolf%20head%20emblem%2C%20dark%20navy%20background%2C%20blue%20glow%2C%20modern%20minimal%20vector%20logo%2C%20centered%2C%20high%20detail&image_size=square"
+          alt="Awatar Wilkołaka"
+          width="128"
+          height="128"
+          loading="lazy">
+        <div>
+          <p class="eyebrow">Wilkołak</p>
+          <h1>Buduję praktyczne projekty z agentami AI</h1>
+        </div>
+      </div>
       <p class="intro">
         To moja pierwsza mała strona portfolio. Pokazuje kierunek: automatyzacja,
         lokalne modele oraz narzędzia, które pomagają szybciej tworzyć i testować pomysły.
@@ -18,6 +29,8 @@
       <div class="hero-actions">
         <a class="button primary" href="#projekty">Zobacz projekty</a>
         <a class="button secondary" href="#kontakt">Kontakt</a>
+        <a class="button secondary" href="https://github.com/werewolfpll" target="_blank" rel="noopener">GitHub</a>
+        <a class="button secondary" href="mailto:zygmunt.pezda@gmail.com">E-mail</a>
       </div>
     </header>
 
@@ -33,7 +46,7 @@
 
       <section id="projekty" class="projects-section">
         <div class="section-heading">
-          <p class="eyebrow">Trzy przykłady</p>
+          <p class="eyebrow">Cztery przykłady</p>
           <h2>Moje projekty</h2>
         </div>
 
@@ -79,6 +92,20 @@
               <li>prosta rozbudowa</li>
             </ul>
           </article>
+
+          <article class="project-card">
+            <span class="tag">Automatyzacja</span>
+            <h3>Asystent WSL</h3>
+            <p>
+              Zestaw skryptów łączących Windows i WSL2: synchronizacja adresu hosta,
+              uruchamianie usług w tle i podtrzymywanie środowiska pracy.
+            </p>
+            <ul>
+              <li>skrypty startowe</li>
+              <li>usługi systemd</li>
+              <li>most Windows ↔ Linux</li>
+            </ul>
+          </article>
         </div>
       </section>
 
@@ -91,6 +118,51 @@
           <span>agy CLI</span>
           <span>WSL2</span>
           <span>Obsidian</span>
+        </div>
+      </section>
+
+      <section class="panel skills">
+        <h2>Umiejętności</h2>
+        <div class="skills-list">
+          <div class="skill">
+            <div class="skill-head">
+              <span class="skill-name">HTML / CSS</span>
+              <span class="skill-value">70%</span>
+            </div>
+            <div class="skill-bar"><span class="skill-fill" style="width: 70%"></span></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <span class="skill-name">Ollama i modele lokalne</span>
+              <span class="skill-value">60%</span>
+            </div>
+            <div class="skill-bar"><span class="skill-fill" style="width: 60%"></span></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <span class="skill-name">WSL2 / Linux</span>
+              <span class="skill-value">55%</span>
+            </div>
+            <div class="skill-bar"><span class="skill-fill" style="width: 55%"></span></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <span class="skill-name">Python</span>
+              <span class="skill-value">50%</span>
+            </div>
+            <div class="skill-bar"><span class="skill-fill" style="width: 50%"></span></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <span class="skill-name">Git / GitHub</span>
+              <span class="skill-value">45%</span>
+            </div>
+            <div class="skill-bar"><span class="skill-fill" style="width: 45%"></span></div>
+          </div>
         </div>
       </section>
 
@@ -107,7 +179,8 @@
     <footer class="site-footer">
       <p>
         © 2026 Zygmunt „Wilkołak” ·
-        <a href="https://github.com/werewolfpll" target="_blank" rel="noopener">werewolfpll</a>
+        <a href="https://github.com/werewolfpll" target="_blank" rel="noopener">werewolfpll</a> ·
+        <a href="mailto:zygmunt.pezda@gmail.com">napisz do mnie</a>
       </p>
     </footer>
   </div>
