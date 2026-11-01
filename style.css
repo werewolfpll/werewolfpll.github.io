@@ -148,6 +148,12 @@ main {
   color: var(--muted);
 }
 
+.section-intro {
+  margin: 14px 0 0;
+  max-width: 70ch;
+  color: var(--muted);
+}
+
 .section-heading {
   margin-bottom: 18px;
 }
@@ -228,6 +234,57 @@ main {
   margin-top: 20px;
 }
 
+.vision .project-grid {
+  margin-top: 22px;
+}
+
+.services .project-grid {
+  margin-top: 22px;
+}
+
+.service-note {
+  margin: 22px 0 0;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--muted);
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.step-card {
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: var(--panel-strong);
+  box-shadow: var(--shadow);
+}
+
+.step-number {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.step-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.15rem;
+}
+
+.step-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .skill {
   display: grid;
   gap: 8px;
@@ -290,7 +347,8 @@ main {
 }
 
 @media (max-width: 900px) {
-  .project-grid {
+  .project-grid,
+  .steps-grid {
     grid-template-columns: 1fr;
   }
 }
