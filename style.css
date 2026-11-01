@@ -246,6 +246,17 @@ main {
   margin-top: 22px;
 }
 
+.updates-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.updates-actions .button {
+  min-width: 0;
+}
+
 .service-note {
   margin: 22px 0 0;
   padding: 16px 18px;
